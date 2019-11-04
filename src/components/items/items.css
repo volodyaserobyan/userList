@@ -1,0 +1,42 @@
+.items {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.deleteImg {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.editImg {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.marks {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .link {
+    color: black;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+} */
+
+.info {
+    height: 100%;
+    width: auto;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    flex-direction: column;
+}

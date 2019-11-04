@@ -1,0 +1,33 @@
+.container {
+    height: 90vh;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 3px;
+    overflow: scroll;
+}
+
+.chiledContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerAddUser {
+    display: flex;
+}
+
+.addUser {
+    width: 30px;
+    height: 30px;
+}
+.link {
+    color: black;
+}
+.title {
+ margin-bottom: 3px;   
+}
